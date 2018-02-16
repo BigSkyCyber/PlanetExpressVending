@@ -29,10 +29,11 @@ namespace Vending_Machince
       
 
         }
+
         private void ShowtempMoney()
         {
-            foreach (CirculatingMoney in textBox1)
-                textBox1 += CirculatingMoney.ToString();
+            foreach (CirculatingMoney money in textBox1.text)
+                textBox1.text += money.ToString();
 
 
         }

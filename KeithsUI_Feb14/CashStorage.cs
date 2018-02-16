@@ -5,18 +5,7 @@ using System.Text;
 
 namespace Vending_Machince
 {
-    public class CashStorage
+    public class CashStorage : Storage
     {
-        private int ListofCash;
-
-        public void addMoney()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void removeMoney()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }

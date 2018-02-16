@@ -10,7 +10,8 @@
   <Class Name="Vending_Machince.Form1" Collapsed="true">
     <Position X="7" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACAAAAAAACAAABABAACAAAACAMwrAAAAEAAAAAAAAAA=</HashCode>
+      <HashCode>ACAAAAAAACAAABABAACAAAgCAMwrAAAEEHIMCAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.Program" Collapsed="true">
@@ -21,9 +22,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.Properties.Resources" Collapsed="true">
-    <Position X="5.25" Y="7.25" Width="1.5" />
+    <Position X="5.25" Y="7.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAABFAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.Properties.Settings" Collapsed="true">
@@ -33,21 +34,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.vending_machine">
-    <Position X="8.75" Y="5.25" Width="1.5" />
+    <Position X="8.75" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
       <FileName>vending_machine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.Product_Storage">
-    <Position X="10.5" Y="5.25" Width="1.5" />
+    <Position X="10.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAACAAAAAAABAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Product_Storage.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.Products">
-    <Position X="8.75" Y="7" Width="1.5" />
+    <Position X="8.75" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>Products.cs</FileName>
@@ -61,21 +62,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.CashStorage">
-    <Position X="10.75" Y="7" Width="2.25" />
+    <Position X="12.25" Y="9.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CashStorage.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.Bank">
-    <Position X="5.25" Y="5.5" Width="1.5" />
+    <Position X="5.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Bank.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.Customer">
-    <Position X="5.25" Y="8" Width="1.5" />
+    <Position X="5.25" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABQEAAAAAAgggAAQAAAAAAAAgAAAAAAAAgAAAACAAA=</HashCode>
       <FileName>Customer.cs</FileName>
@@ -89,10 +90,24 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Vending_Machince.BunchOfMoney">
-    <Position X="8.75" Y="8.5" Width="1.5" />
+    <Position X="3.5" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BunchOfMoney.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vending_Machince.Storage">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Storage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vending_Machince.InputCash">
+    <Position X="9.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InputCash.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

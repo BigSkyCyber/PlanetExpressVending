@@ -12,17 +12,12 @@ namespace Vending_Machince
             throw new System.NotImplementedException();
         }
 
-        public void addMoney()
+        public void TakeMoney()
         {
             throw new System.NotImplementedException();
         }
 
-        public void removeMoney()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void inputCash()
+        public void InputMoney()
         {
             throw new System.NotImplementedException();
         }

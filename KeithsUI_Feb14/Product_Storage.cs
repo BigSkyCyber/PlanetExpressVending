@@ -8,17 +8,13 @@ namespace Vending_Machince
 
     public class Product_Storage
     {
-        public void addProducts()
+
+        public void RemoveProducts()
         {
             throw new System.NotImplementedException();
         }
 
-        public void removeProducts()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void displayProducts()
+        public void AddProducts()
         {
             throw new System.NotImplementedException();
         }

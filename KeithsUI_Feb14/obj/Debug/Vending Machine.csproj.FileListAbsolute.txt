@@ -8,3 +8,10 @@ C:\Users\kcrig\source\repos\Vending Machince\Vending Machince\obj\Debug\Vending 
 C:\Users\kcrig\source\repos\Vending Machince\Vending Machince\obj\Debug\Vending Machine.csproj.CoreCompileInputs.cache
 C:\Users\kcrig\source\repos\Vending Machince\Vending Machince\obj\Debug\Vending Machince.exe
 C:\Users\kcrig\source\repos\Vending Machince\Vending Machince\obj\Debug\Vending Machince.pdb
+E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machine.csprojResolveAssemblyReference.cache
+E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending_Machince.Form1.resources
+E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending_Machince.Properties.Resources.resources
+E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machine.csproj.GenerateResource.Cache
+E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machine.csproj.CoreCompileInputs.cache
+E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machince.exe
+E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machince.pdb
