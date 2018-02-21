@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Vending_Machince
+namespace VendingMachine
 {
     public class Customer
     {
         private WorldOfMoney world;
+        private int currentVendor;
 
-        public VendingMachine currentVendingMachine
+        public int WalkIntoVendor
         {
             get => default(int);
             set
@@ -17,27 +18,7 @@ namespace Vending_Machince
             }
         }
 
-        public void UseVendingMachine()
-        {
-            throw new System.NotImplementedException();
-        }
-
         public void GetMoneyFromWallet()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void PutMoneyInVendingMachine()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void SelectProdectFromVendingMaching()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void StopUsingVendingMachine()
         {
             throw new System.NotImplementedException();
         }

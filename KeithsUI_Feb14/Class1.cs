@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Vending_Machince
+namespace VendingMachine
 {
     class Class1
     {

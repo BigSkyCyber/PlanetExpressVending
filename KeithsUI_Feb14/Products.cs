@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Vending_Machince
+namespace VendingMachine
 {
     public class Products
     {
-        public int price
+        public int Price
         {
             get => default(int);
             set
@@ -15,7 +15,7 @@ namespace Vending_Machince
             }
         }
 
-        public int inventory
+        public int Inventory
         {
             get => default(int);
             set

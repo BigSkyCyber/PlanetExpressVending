@@ -3,22 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Vending_Machince
+namespace VendingMachine
 {
 
-    public class Product_Storage
+    public class ProductStorage
     {
-        public void addProducts()
+
+        public void RemoveProducts()
         {
             throw new System.NotImplementedException();
         }
 
-        public void removeProducts()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void displayProducts()
+        public void AddProducts()
         {
             throw new System.NotImplementedException();
         }
