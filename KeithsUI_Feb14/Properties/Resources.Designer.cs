@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Vending_Machince.Properties {
+namespace VendingMachine.Properties {
     using System;
     
     

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Vending_Machince
+namespace VendingMachine
 {
-    public class Displays
+    public class Display
     {
     }
 }

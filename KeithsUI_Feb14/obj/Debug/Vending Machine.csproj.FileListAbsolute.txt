@@ -15,3 +15,4 @@ E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machine.csproj.GenerateRes
 E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machine.csproj.CoreCompileInputs.cache
 E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machince.exe
 E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machince.pdb
+E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\VendingMachince.VendingMachinefrm.resources

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Vending_Machince
+namespace VendingMachine
 {
     public abstract class Storage
     {
-        private int ListOfCash;
+        private int listOfMoney;
 
         public void AddMoney()
         {
