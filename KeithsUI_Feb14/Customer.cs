@@ -37,5 +37,10 @@ namespace VendingMachine
         {
             throw new System.NotImplementedException();
         }
+
+        public void GetProductFromVendor()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

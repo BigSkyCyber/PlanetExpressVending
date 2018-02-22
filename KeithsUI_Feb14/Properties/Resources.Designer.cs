@@ -39,7 +39,7 @@ namespace VendingMachine.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Vending_Machince.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("VendingMachine.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,16 +57,6 @@ namespace VendingMachine.Properties {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _2005_Dime_unc_GS__reverse_ {
-            get {
-                object obj = ResourceManager.GetObject("2005-Dime-unc-GS_(reverse)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

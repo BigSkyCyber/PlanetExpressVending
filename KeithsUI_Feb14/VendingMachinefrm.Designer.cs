@@ -1,5 +1,6 @@
 ﻿namespace VendingMachine
 {
+
     partial class VendingMachinefrm
     {
         /// <summary>
@@ -76,7 +77,7 @@
             this.btnDollarBill.ForeColor = System.Drawing.Color.Transparent;
             this.btnDollarBill.Location = new System.Drawing.Point(52, 60);
             this.btnDollarBill.Name = "btnDollarBill";
-            this.btnDollarBill.Size = new System.Drawing.Size(180, 80);
+            this.btnDollarBill.Size = new System.Drawing.Size(170, 80);
             this.btnDollarBill.TabIndex = 2;
             this.btnDollarBill.UseVisualStyleBackColor = false;
             // 
@@ -207,11 +208,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnSourLays;
-            this.ClientSize = new System.Drawing.Size(669, 328);
+            this.ClientSize = new System.Drawing.Size(669, 349);
             this.Controls.Add(this.btnChaletLays);
             this.Controls.Add(this.btnSourLays);
             this.Controls.Add(this.btnPotLays);
@@ -227,6 +229,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtAmountInserted);
             this.DoubleBuffered = true;
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "VendingMachinefrm";
             this.Text = "Bender\'s Vending";
             this.ResumeLayout(false);
@@ -252,4 +255,3 @@
         private System.Windows.Forms.Button btnChaletLays;
     }
 }
-

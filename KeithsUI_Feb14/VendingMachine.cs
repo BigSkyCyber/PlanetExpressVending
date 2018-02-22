@@ -2,14 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using MoneyLib;
 
 namespace VendingMachine
 {
     public class VendingMachine : Vendor
     {
-        public void calculateChange()
+        public Display display = new Display();
+
+        public override void InputMoney(CirculatingMoney money)
         {
-            throw new System.NotImplementedException();
+            cashStorage.AddMoney(money);
+            display.InsertedMoney = money.Value;
         }
+
+        public override void TakeMoney(CirculatingMoney money)
+        {
+            cashStorage.RemoveMoney(money);
+        } 
     }
 }
+
