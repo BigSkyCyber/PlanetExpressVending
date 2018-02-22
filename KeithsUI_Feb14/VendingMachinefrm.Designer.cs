@@ -211,7 +211,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnSourLays;
-            this.ClientSize = new System.Drawing.Size(681, 324);
+            this.ClientSize = new System.Drawing.Size(669, 328);
             this.Controls.Add(this.btnChaletLays);
             this.Controls.Add(this.btnSourLays);
             this.Controls.Add(this.btnPotLays);
