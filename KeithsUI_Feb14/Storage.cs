@@ -6,9 +6,9 @@ using MoneyLib;
 
 namespace VendingMachine
 {
-    public abstract class Storage
+    public class Storage
     {
-        private List<CirculatingMoney> listOfMoney;
+        private List<CirculatingMoney> listOfMoney = new List<CirculatingMoney>();
 
         public void AddMoney(CirculatingMoney money)
         {

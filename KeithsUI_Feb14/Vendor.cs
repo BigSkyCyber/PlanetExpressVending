@@ -8,7 +8,7 @@ namespace VendingMachine
 {
     public abstract class Vendor
     {
-        protected Storage cashStorage;
+        protected Storage cashStorage = new Storage();
 
         public virtual void InputMoney(CirculatingMoney money)
         {

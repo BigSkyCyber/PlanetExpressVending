@@ -8,12 +8,10 @@ namespace VendingMachine
 {
     public class VendingMachine : Vendor
     {
-        public Display display = new Display();
-
         public override void InputMoney(CirculatingMoney money)
         {
             cashStorage.AddMoney(money);
-            display.InsertedMoney = money.Value;
+            VendingMachinefrm.display.InsertedMoney = money.Value;
         }
 
         public override void TakeMoney(CirculatingMoney money)

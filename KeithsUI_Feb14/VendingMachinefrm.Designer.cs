@@ -54,7 +54,7 @@
             this.txtAmountInserted.Name = "txtAmountInserted";
             this.txtAmountInserted.Size = new System.Drawing.Size(96, 22);
             this.txtAmountInserted.TabIndex = 0;
-            this.txtAmountInserted.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtAmountInserted.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -78,6 +78,7 @@
             this.btnDollarBill.Size = new System.Drawing.Size(170, 80);
             this.btnDollarBill.TabIndex = 2;
             this.btnDollarBill.UseVisualStyleBackColor = false;
+            this.btnDollarBill.Click += new System.EventHandler(this.btnDollarBill_Click);
             // 
             // btnQuarter
             // 
@@ -136,6 +137,7 @@
             // 
             this.btnCocaCola.BackColor = System.Drawing.Color.Transparent;
             this.btnCocaCola.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCocaCola.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCocaCola.Location = new System.Drawing.Point(506, 35);
             this.btnCocaCola.Name = "btnCocaCola";
             this.btnCocaCola.Size = new System.Drawing.Size(34, 36);
@@ -146,6 +148,7 @@
             // 
             this.btnCrush.BackColor = System.Drawing.Color.Transparent;
             this.btnCrush.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCrush.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCrush.Location = new System.Drawing.Point(506, 77);
             this.btnCrush.Name = "btnCrush";
             this.btnCrush.Size = new System.Drawing.Size(34, 36);
@@ -156,6 +159,7 @@
             // 
             this.btnFanta.BackColor = System.Drawing.Color.Transparent;
             this.btnFanta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFanta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFanta.Location = new System.Drawing.Point(506, 119);
             this.btnFanta.Name = "btnFanta";
             this.btnFanta.Size = new System.Drawing.Size(34, 36);
@@ -166,6 +170,7 @@
             // 
             this.btnPotLays.BackColor = System.Drawing.Color.Transparent;
             this.btnPotLays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPotLays.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPotLays.Location = new System.Drawing.Point(506, 163);
             this.btnPotLays.Name = "btnPotLays";
             this.btnPotLays.Size = new System.Drawing.Size(34, 36);
@@ -176,6 +181,7 @@
             // 
             this.btnSourLays.BackColor = System.Drawing.Color.Transparent;
             this.btnSourLays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSourLays.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSourLays.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnSourLays.Location = new System.Drawing.Point(506, 203);
             this.btnSourLays.Name = "btnSourLays";
@@ -187,6 +193,7 @@
             // 
             this.btnChaletLays.BackColor = System.Drawing.Color.Transparent;
             this.btnChaletLays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnChaletLays.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnChaletLays.Location = new System.Drawing.Point(506, 245);
             this.btnChaletLays.Name = "btnChaletLays";
             this.btnChaletLays.Size = new System.Drawing.Size(34, 36);
