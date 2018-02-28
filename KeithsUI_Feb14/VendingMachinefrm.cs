@@ -16,5 +16,10 @@ namespace VendingMachine
         {
             InitializeComponent();
         }
+
+        private void VendingMachinefrm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

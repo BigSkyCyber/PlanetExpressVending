@@ -71,7 +71,6 @@
     <Compile Include="Bank.cs" />
     <Compile Include="BunchOfMoney.cs" />
     <Compile Include="CashStorage.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Display.cs" />
     <Compile Include="VendingMachinefrm.cs">

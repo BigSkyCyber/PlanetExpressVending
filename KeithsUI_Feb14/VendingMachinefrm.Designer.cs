@@ -29,7 +29,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VendingMachinefrm));
             this.txtAmountInserted = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnDollarBill = new System.Windows.Forms.Button();
@@ -71,7 +70,6 @@
             // btnDollarBill
             // 
             this.btnDollarBill.BackColor = System.Drawing.Color.Transparent;
-            this.btnDollarBill.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDollarBill.BackgroundImage")));
             this.btnDollarBill.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnDollarBill.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnDollarBill.ForeColor = System.Drawing.Color.Transparent;
@@ -84,7 +82,6 @@
             // btnQuarter
             // 
             this.btnQuarter.BackColor = System.Drawing.Color.Transparent;
-            this.btnQuarter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnQuarter.BackgroundImage")));
             this.btnQuarter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnQuarter.Location = new System.Drawing.Point(52, 146);
             this.btnQuarter.Name = "btnQuarter";
@@ -95,7 +92,6 @@
             // btnDime
             // 
             this.btnDime.BackColor = System.Drawing.Color.Transparent;
-            this.btnDime.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDime.BackgroundImage")));
             this.btnDime.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnDime.ForeColor = System.Drawing.Color.Transparent;
             this.btnDime.Location = new System.Drawing.Point(213, 146);
@@ -107,7 +103,6 @@
             // btnNickel
             // 
             this.btnNickel.BackColor = System.Drawing.Color.Transparent;
-            this.btnNickel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNickel.BackgroundImage")));
             this.btnNickel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnNickel.Location = new System.Drawing.Point(133, 146);
             this.btnNickel.Name = "btnNickel";
@@ -140,7 +135,6 @@
             // btnCocaCola
             // 
             this.btnCocaCola.BackColor = System.Drawing.Color.Transparent;
-            this.btnCocaCola.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCocaCola.BackgroundImage")));
             this.btnCocaCola.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCocaCola.Location = new System.Drawing.Point(506, 35);
             this.btnCocaCola.Name = "btnCocaCola";
@@ -151,7 +145,6 @@
             // btnCrush
             // 
             this.btnCrush.BackColor = System.Drawing.Color.Transparent;
-            this.btnCrush.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCrush.BackgroundImage")));
             this.btnCrush.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCrush.Location = new System.Drawing.Point(506, 77);
             this.btnCrush.Name = "btnCrush";
@@ -162,7 +155,6 @@
             // btnFanta
             // 
             this.btnFanta.BackColor = System.Drawing.Color.Transparent;
-            this.btnFanta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFanta.BackgroundImage")));
             this.btnFanta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFanta.Location = new System.Drawing.Point(506, 119);
             this.btnFanta.Name = "btnFanta";
@@ -173,7 +165,6 @@
             // btnPotLays
             // 
             this.btnPotLays.BackColor = System.Drawing.Color.Transparent;
-            this.btnPotLays.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPotLays.BackgroundImage")));
             this.btnPotLays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPotLays.Location = new System.Drawing.Point(506, 163);
             this.btnPotLays.Name = "btnPotLays";
@@ -184,7 +175,6 @@
             // btnSourLays
             // 
             this.btnSourLays.BackColor = System.Drawing.Color.Transparent;
-            this.btnSourLays.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSourLays.BackgroundImage")));
             this.btnSourLays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSourLays.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnSourLays.Location = new System.Drawing.Point(506, 203);
@@ -196,7 +186,6 @@
             // btnChaletLays
             // 
             this.btnChaletLays.BackColor = System.Drawing.Color.Transparent;
-            this.btnChaletLays.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnChaletLays.BackgroundImage")));
             this.btnChaletLays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnChaletLays.Location = new System.Drawing.Point(506, 245);
             this.btnChaletLays.Name = "btnChaletLays";
@@ -210,7 +199,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnSourLays;
             this.ClientSize = new System.Drawing.Size(669, 349);
@@ -232,6 +220,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "VendingMachinefrm";
             this.Text = "Bender\'s Vending";
+            this.Load += new System.EventHandler(this.VendingMachinefrm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
