@@ -8,10 +8,35 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MoneyLib;
+
 namespace VendingMachine
 {
     public partial class VendingMachinefrm : Form
     {
-       
+
+        public static Display display = new Display();
+        DollarBill dollar = new DollarBill();
+        VendingMachine Vending = new VendingMachine();
+
+
+        public VendingMachinefrm()
+        {
+            InitializeComponent();
+        }
+
+        private void VendingMachinefrm_Load(object sender, EventArgs e)
+        {
+            display.MoneyAdded += new Display.MoneyAddedHandler(displayMoney);
+        }
+
+        private void displayMoney(decimal money)
+        {
+            txtAmountInserted.Text = money.ToString("c");
+        }
+
+        private void btnDollarBill_Click(object sender, EventArgs e)
+        {
+            Vending.InputMoney(dollar);
+        }
     }
 }

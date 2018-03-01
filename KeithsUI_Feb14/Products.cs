@@ -5,13 +5,21 @@ using System.Text;
 
 namespace VendingMachine
 {
-    public class Products
+    public class Product
     {
+        private int price;
+
+        public Product(int price)
+        {
+            this.Price = price;
+        }
+
         public int Price
         {
-            get => default(int);
+            get {return price;}
             set
             {
+                price = value;
             }
         }
 

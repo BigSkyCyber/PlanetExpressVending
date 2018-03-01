@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using MoneyLib;
 
 namespace VendingMachine
 {
-    public abstract class Storage
+    public class Storage
     {
-        private int listOfMoney;
+        private List<CirculatingMoney> listOfMoney = new List<CirculatingMoney>();
 
-        public void AddMoney()
+        public void AddMoney(CirculatingMoney money)
         {
-            throw new System.NotImplementedException();
+            listOfMoney.Add(money);
         }
 
-        public void RemoveMoney()
+        public void RemoveMoney(CirculatingMoney money)
         {
-            throw new System.NotImplementedException();
+            listOfMoney.Remove(money);
         }
     }
 }

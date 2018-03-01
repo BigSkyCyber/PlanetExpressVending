@@ -16,3 +16,15 @@ E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machine.csproj.CoreCompile
 E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machince.exe
 E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\Vending Machince.pdb
 E:\2018\Repositories\KeithsUI_Feb14\obj\Debug\VendingMachince.VendingMachinefrm.resources
+E:\2018\Repository\KeithsUI_Feb14\bin\Debug\VendingMachinefrm.Designer.cs
+E:\2018\Repository\KeithsUI_Feb14\bin\Debug\MoneyLib.dll
+E:\2018\Repository\KeithsUI_Feb14\obj\Debug\VendingMachine.VendingMachinefrm.resources
+E:\2018\Repository\KeithsUI_Feb14\obj\Debug\Vending Machine.csproj.GenerateResource.Cache
+E:\2018\Repository\KeithsUI_Feb14\obj\Debug\Vending Machine.csproj.CoreCompileInputs.cache
+E:\2018\Repository\KeithsUI_Feb14\bin\Debug\Vending Machine.exe.config
+E:\2018\Repository\KeithsUI_Feb14\bin\Debug\Vending Machine.exe
+E:\2018\Repository\KeithsUI_Feb14\bin\Debug\Vending Machine.pdb
+E:\2018\Repository\KeithsUI_Feb14\obj\Debug\VendingMachine.Properties.Resources.resources
+E:\2018\Repository\KeithsUI_Feb14\obj\Debug\Vending Machine.exe
+E:\2018\Repository\KeithsUI_Feb14\obj\Debug\Vending Machine.pdb
+E:\2018\Repository\KeithsUI_Feb14\obj\Debug\Vending Machine.csprojResolveAssemblyReference.cache
