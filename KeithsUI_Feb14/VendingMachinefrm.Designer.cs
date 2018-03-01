@@ -61,7 +61,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(177, 34);
+            this.label1.Location = new System.Drawing.Point(171, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 20);
             this.label1.TabIndex = 1;
@@ -127,7 +127,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(144, 251);
+            this.label2.Location = new System.Drawing.Point(135, 250);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 20);
             this.label2.TabIndex = 8;
@@ -208,7 +208,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnSourLays;
-            this.ClientSize = new System.Drawing.Size(669, 349);
+            this.ClientSize = new System.Drawing.Size(618, 330);
             this.Controls.Add(this.btnChaletLays);
             this.Controls.Add(this.btnSourLays);
             this.Controls.Add(this.btnPotLays);
