@@ -16,6 +16,7 @@ namespace VendingMachine
 
         public static Display display = new Display();
         DollarBill dollar = new DollarBill();
+        Penny penny = new Penny();
         VendingMachine Vending = new VendingMachine();
 
 
@@ -36,7 +37,7 @@ namespace VendingMachine
 
         private void btnDollarBill_Click(object sender, EventArgs e)
         {
-            Vending.InputMoney(dollar);
+            Vending.InputMoney(penny);
         }
     }
 }

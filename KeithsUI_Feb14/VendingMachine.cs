@@ -8,6 +8,11 @@ namespace VendingMachine
 {
     public class VendingMachine : Vendor
     {
+        public VendingMachine()
+        {
+            ProductStorage Inventory = new ProductStorage();
+        }
+
         public override void InputMoney(CirculatingMoney money)
         {
             cashStorage.AddMoney(money);
