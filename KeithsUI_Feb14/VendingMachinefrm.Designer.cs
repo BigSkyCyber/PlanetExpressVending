@@ -143,6 +143,7 @@
             this.btnCocaCola.Size = new System.Drawing.Size(34, 36);
             this.btnCocaCola.TabIndex = 9;
             this.btnCocaCola.UseVisualStyleBackColor = false;
+            this.btnCocaCola.Click += new System.EventHandler(this.btnCocaCola_Click);
             // 
             // btnCrush
             // 
@@ -153,7 +154,8 @@
             this.btnCrush.Name = "btnCrush";
             this.btnCrush.Size = new System.Drawing.Size(34, 36);
             this.btnCrush.TabIndex = 10;
-            this.btnCrush.UseVisualStyleBackColor = false;
+            this.btnCrush.UseVisualStyleBackColor = true;
+            this.btnCrush.Click += new System.EventHandler(this.btnCrush_Click);
             // 
             // btnFanta
             // 
@@ -165,6 +167,7 @@
             this.btnFanta.Size = new System.Drawing.Size(34, 36);
             this.btnFanta.TabIndex = 11;
             this.btnFanta.UseVisualStyleBackColor = false;
+            this.btnFanta.Click += new System.EventHandler(this.btnFanta_Click);
             // 
             // btnPotLays
             // 
@@ -176,6 +179,7 @@
             this.btnPotLays.Size = new System.Drawing.Size(34, 36);
             this.btnPotLays.TabIndex = 12;
             this.btnPotLays.UseVisualStyleBackColor = false;
+            this.btnPotLays.Click += new System.EventHandler(this.btnPotLays_Click);
             // 
             // btnSourLays
             // 
@@ -188,6 +192,7 @@
             this.btnSourLays.Size = new System.Drawing.Size(34, 36);
             this.btnSourLays.TabIndex = 13;
             this.btnSourLays.UseVisualStyleBackColor = false;
+            this.btnSourLays.Click += new System.EventHandler(this.btnSourLays_Click);
             // 
             // btnChaletLays
             // 
@@ -199,6 +204,7 @@
             this.btnChaletLays.Size = new System.Drawing.Size(34, 36);
             this.btnChaletLays.TabIndex = 14;
             this.btnChaletLays.UseVisualStyleBackColor = false;
+            this.btnChaletLays.Click += new System.EventHandler(this.btnChaletLays_Click);
             // 
             // VendingMachinefrm
             // 

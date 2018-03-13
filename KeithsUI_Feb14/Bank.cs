@@ -5,17 +5,4 @@ using System.Text;
 
 namespace VendingMachine
 {
-    public class Bank
-    {
-
-        public string OpenAccount(Customer cust, string cash)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public decimal GetAccountBalance(Customer customer, string acctNumber)
-        {
-            throw new System.NotImplementedException();
-        }
-    }
 }

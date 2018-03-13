@@ -5,37 +5,4 @@ using System.Text;
 
 namespace VendingMachine
 {
-    public class WorldOfMoney
-    {
-        public int Bob
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public int CityCollegeSnacks
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public void HaveBobOpenAccount()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void FundBank()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Bank GetBank()
-        {
-            throw new System.NotImplementedException();
-        }
-    }
 }

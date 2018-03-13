@@ -1,89 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="VendingMachine.Program" Collapsed="true">
-    <Position X="1.75" Y="5.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="VendingMachine.Properties.Resources" Collapsed="true">
-    <Position X="3.5" Y="5.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="VendingMachine.Properties.Settings" Collapsed="true">
-    <Position X="3.5" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
-    </TypeIdentifier>
-  </Class>
   <Class Name="VendingMachine.VendingMachine">
-    <Position X="9" Y="7.5" Width="1.5" />
+    <Position X="6" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAEAQAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>VendingMachine.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VendingMachine.ProductStorage">
-    <Position X="12.5" Y="5.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Product_Storage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="VendingMachine.Product">
-    <Position X="10.75" Y="5.5" Width="1.5" />
+    <Position X="7.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <HashCode>AAADAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>Products.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="VendingMachine.Bank">
-    <Position X="3.5" Y="9.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAAA=</HashCode>
-      <FileName>Bank.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="VendingMachine.WorldOfMoney">
-    <Position X="3.5" Y="6" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAYACAAAAAAAAAAAAAA=</HashCode>
-      <FileName>WorldOfMoney.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="VendingMachine.BunchOfMoney">
-    <Position X="3.5" Y="8.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>BunchOfMoney.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="VendingMachine.Storage">
-    <Position X="9" Y="3.5" Width="1.5" />
+    <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
       <FileName>Storage.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VendingMachine.Customer">
-    <Position X="0.5" Y="6.25" Width="2.75" />
+    <Position X="1" Y="2.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>CAAQEAAAAAAAAgAAQAAAAAAAAgAAAAAAAAAAAAICAAA=</HashCode>
       <FileName>Customer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VendingMachine.Vendor">
-    <Position X="9" Y="5.5" Width="1.5" />
+    <Position X="6" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAQAAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Vendor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="VendingMachine.Display">
-    <Position X="10.75" Y="8" Width="1.5" />
+    <Position X="7.75" Y="3.75" Width="1.5" />
     <NestedTypes>
       <Delegate Name="VendingMachine.Display.MoneyAddedHandler" Collapsed="true">
         <TypeIdentifier>
@@ -97,9 +50,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="VendingMachine.VendingMachinefrm">
-    <Position X="7" Y="4" Width="1.75" />
+    <Position X="4" Y="1" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AABAQAAACCEAABAAQAjAAAAGACAAAAAAEAAAAABAAgA=</HashCode>
+      <HashCode>AABIQAAACDEIABQCQAjAAAAGASUAAAAAEAgAAAxBAiA=</HashCode>
       <FileName>VendingMachinefrm.cs</FileName>
     </TypeIdentifier>
   </Class>

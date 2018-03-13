@@ -18,6 +18,7 @@ namespace VendingMachine
         DollarBill dollar = new DollarBill();
         Penny penny = new Penny();
         VendingMachine Vending = new VendingMachine();
+        string selectedId;
 
 
         public VendingMachinefrm()
@@ -38,6 +39,43 @@ namespace VendingMachine
         private void btnDollarBill_Click(object sender, EventArgs e)
         {
             Vending.InputMoney(penny);
+        }
+
+
+
+        private void btnCocaCola_Click(object sender, EventArgs e)
+        {
+            GiveCostumerProduct("Coke");
+        }
+
+        private void btnCrush_Click(object sender, EventArgs e)
+        {
+            GiveCostumerProduct("Crush");
+        }
+
+        private void btnFanta_Click(object sender, EventArgs e)
+        {
+            GiveCostumerProduct("Fanta");
+        }
+
+        private void btnPotLays_Click(object sender, EventArgs e)
+        {
+            GiveCostumerProduct("PotLays");
+        }
+
+        private void btnSourLays_Click(object sender, EventArgs e)
+        {
+            GiveCostumerProduct("SourLays");
+        }
+
+        private void btnChaletLays_Click(object sender, EventArgs e)
+        {
+            GiveCostumerProduct("ChaletLays");
+        }
+
+        private void GiveCostumerProduct(string id)
+        {
+
         }
     }
 }
