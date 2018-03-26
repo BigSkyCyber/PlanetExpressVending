@@ -8,12 +8,7 @@ namespace VendingMachine
     public class Product
     {
         private decimal price;
-        private int id;
-
-        public Product(decimal price)
-        {
-            this.Price = price;
-        }
+        private string id;
 
         public decimal Price
         {
@@ -21,12 +16,12 @@ namespace VendingMachine
             set {price = value;}
         }
 
-        public int Id
+        public string Id
         {
-            get => default(int);
-            set
-            {
-            }
+            get { return id; }
+            set { id = "PRO#" + value; }
         }
+
+
     }
 }

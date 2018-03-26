@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MoneyLib;
+using System.Data.OleDb;
 
 namespace VendingMachine
 {
@@ -75,7 +76,28 @@ namespace VendingMachine
 
         private void GiveCostumerProduct(string id)
         {
+            Product userProduct = new Product();
+            OleDbParameter productBrand = new OleDbParameter("ProductBrand", id);
+            OleDbConnection connection = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = E:\\2018\\Repository\\KeithsUI_Feb14\\VendingMachineDb.accdb");
+            OleDbCommand getProductById = new OleDbCommand("SELECT Product.ProductId, Product.ProductBrand, Product.DateSold, Products.ProductCost" +
+                                                           "FROM Products INNER JOIN Product ON Products.ProductsId = Product.ProductBrand" +
+                                                           "WHERE product.ProductBrand = ?");
+            getProductById.Parameters.Add(productBrand);
 
+            try
+            {
+                connection.Open();
+                OleDbDataReader reader =
+                    getProductById.ExecuteReader(CommandBehavior.CloseConnection & CommandBehavior.SingleRow);
+                if (reader.Read())
+                {
+                    
+                }
+            }
+            catch
+            {
+                
+            }
         }
     }
 }
